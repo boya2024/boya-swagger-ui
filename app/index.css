@@ -1,0 +1,47 @@
+.code-block {
+  background-color: #282c34; /* 背景颜色 */
+  color: #abb2bf; /* 文本颜色 */
+  padding: 1rem; /* 内边距 */
+  border-radius: 5px; /* 圆角 */
+  overflow-x: auto; /* 水平滚动 */
+  white-space: pre; /* 保持空格 */
+  font-family: 'Fira Code', monospace; /* 字体 */
+}
+
+.code-block-container {
+  position: relative; /* 使子元素可以绝对定位 */
+}
+
+.copy-button {
+  position: absolute; /* 绝对定位 */
+  top: 10px; /* 距离顶部的距离 */
+  right: 10px; /* 距离右侧的距离 */
+  background-color: transparent; /* 背景透明 */
+  border: none; /* 无边框 */
+  cursor: pointer; /* 鼠标指针 */
+  padding: 0; /* 无内边距 */
+  color: #ffffff; /* 图标颜色 */
+  font-size: 16px; /* 图标大小 */
+}
+
+.copy-button:hover {
+  color: #4CAF50; /* 悬停时的颜色 */
+}
+
+.toggle-section {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-section button {
+  margin-right: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.line-number{
+  display: inline-block;
+  width: 30px;
+  text-align: left;
+}
